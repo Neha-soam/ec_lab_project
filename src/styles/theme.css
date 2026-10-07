@@ -1,0 +1,38 @@
+/* Centralised design tokens. Components must use these variables, never raw colours. */
+:root,
+:root[data-theme='light'] {
+  --bg: #f4f6f9;
+  --surface: #ffffff;
+  --surface-2: #eef1f6;
+  --border: #d5dbe5;
+  --text: #16202e;
+  --text-muted: #55637a;
+  --accent: #0b6bcb;
+  --accent-contrast: #ffffff;
+  --success: #1a7f4b;
+  --danger: #b3261e;
+  --danger-bg: #fdecea;
+  --success-bg: #e8f5ee;
+  --focus: #0b6bcb;
+  --resistor-body: #e3cfa6;
+  --radius: 10px;
+  --font: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: ui-monospace, 'SF Mono', Consolas, monospace;
+}
+
+:root[data-theme='dark'] {
+  --bg: #0f141b;
+  --surface: #171e28;
+  --surface-2: #1e2733;
+  --border: #2c3849;
+  --text: #e6ebf2;
+  --text-muted: #9aa8bd;
+  --accent: #4ca3ff;
+  --accent-contrast: #08111d;
+  --success: #4cc38a;
+  --danger: #ff8a80;
+  --danger-bg: #3a1c1a;
+  --success-bg: #14301f;
+  --focus: #4ca3ff;
+  --resistor-body: #b89f6e;
+}
